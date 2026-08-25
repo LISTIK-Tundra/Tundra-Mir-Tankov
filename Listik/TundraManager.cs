@@ -39,6 +39,9 @@ namespace Listik
         [DllImport(DllName, CallingConvention = CallingConvention.Cdecl)]
         private static extern void SetAutoDisable([MarshalAs(UnmanagedType.I1)] bool autoDisable);
 
+        [DllImport(DllName, CallingConvention = CallingConvention.Cdecl)]
+        private static extern int CheckGameCompatibility();
+
 
         // Публичные методы для использования
         public int GetVersion()
@@ -88,6 +91,11 @@ namespace Listik
         public void SetAutoDisableEnabled(bool autoDisable)
         {
             SetAutoDisable(autoDisable);
+        }
+
+        public int GetGameCompatibilityStatus()
+        {
+            return CheckGameCompatibility();
         }
     }
     // Класс для хранения данных

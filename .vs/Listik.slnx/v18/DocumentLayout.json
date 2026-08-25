@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\tundramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|c:\\tundra-mir-tankov\\listik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|C:\\Tundra-Mir-Tankov\\listik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -89,8 +89,7 @@
               "ToolTip": "C:\\Tundra-Mir-Tankov\\Listik\\MainWindow.xaml",
               "RelativeToolTip": "Listik\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-08-16T15:29:57.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T15:29:57.983Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "Listik\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAEcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T19:19:25.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T19:19:25.35Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "Listik\\TundraManager.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAA9wIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:36:01.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T18:36:01.788Z"
             }
           ]
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,6 +35,7 @@ namespace Listik
         private bool _settingsReady;
         private bool _licenseCheckInProgress;
         private bool _isShuttingDown;
+        private bool _gameUpdateWarningShown;
         char initialKey1 = 'Q'; // Например, из Settings.Default.Key1
         char initialKey2 = 'Y'; // Например, из Settings.Default.Key2
         char initialKey3 = 'U'; // Например, из Settings.Default.Key3
@@ -110,6 +112,7 @@ namespace Listik
             _settingsReady = true;
 
             this.Closing += MainWindow_Closing;
+            Loaded += MainWindow_Loaded;
 
             // Настройка таймера для периодического чтения
             _timer = new DispatcherTimer();
@@ -145,6 +148,23 @@ namespace Listik
             {
                 _licenseCheckInProgress = false;
             }
+        }
+
+        private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            var update = await UpdateService.GetLatestReleaseAsync();
+            if (_isShuttingDown || update == null || wrapper == null)
+                return;
+
+            var localVersion = UpdateService.GetLocalVersion(wrapper.GetVersion());
+            if (update.Version.CompareTo(localVersion) <= 0)
+                return;
+
+            var answer = MessageBox.Show(
+                $"Доступна новая версия {update.Tag}.\nТекущая версия: {localVersion}.\n\nОткрыть страницу обновления?",
+                "Доступно обновление", MessageBoxButton.YesNo, MessageBoxImage.Information);
+            if (answer == MessageBoxResult.Yes)
+                Process.Start(new ProcessStartInfo(update.ReleaseUrl) { UseShellExecute = true });
         }
 
         private void ShutdownApplication()
@@ -333,10 +353,31 @@ namespace Listik
               }
               if (wrapper.IsProcessOpen() && !_isConnected)
               {
-                wrapper.OpenProcess();
-                  _isConnected = true;
+                if (!wrapper.OpenProcess())
+                {
+                    if (wrapper.GetGameCompatibilityStatus() == 0)
+                        ShowGameUpdateRequired();
+                    return false;
+                }
+                _isConnected = true;
+              }
+              if (_isConnected && wrapper.GetGameCompatibilityStatus() == 0)
+              {
+                  ShowGameUpdateRequired();
+                  return false;
               }
               return wrapper.IsProcessOpen();
+        }
+
+        private void ShowGameUpdateRequired()
+        {
+            if (_gameUpdateWarningShown || _isShuttingDown)
+                return;
+
+            _gameUpdateWarningShown = true;
+            MessageBox.Show("Требуется обновить программу. Версия игры изменилась.",
+                "Listik", MessageBoxButton.OK, MessageBoxImage.Warning);
+            ShutdownApplication();
         }
         private void ReadParameters()
         {

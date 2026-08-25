@@ -155,6 +155,7 @@
     <Compile Include="HotKeyManager.cs" />
     <Compile Include="KeyHack.cs" />
     <Compile Include="TundraManager.cs" />
+    <Compile Include="UpdateService.cs" />
   </ItemGroup>
   <!-- ========================================================= -->
   <!-- PROPERTIES                                                -->
