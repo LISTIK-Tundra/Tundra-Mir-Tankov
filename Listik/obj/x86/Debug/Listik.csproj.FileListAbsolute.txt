@@ -1,0 +1,13 @@
+C:\Users\Alex\source\repos\Listik\Listik\bin\x86\Debug\Hook.dll
+C:\Users\Alex\source\repos\Listik\Listik\bin\x86\Debug\Listik.exe
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\MainWindow.baml
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\App.g.cs
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik_Content.g.cs
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik_MarkupCompile.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik.g.resources
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik.Properties.Resources.resources
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Debug\Listik.exe

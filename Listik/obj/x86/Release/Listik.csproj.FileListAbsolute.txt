@@ -1,0 +1,17 @@
+C:\Users\Alex\Documents\Codex\2026-08-16\referenced-chatgpt-conversation-this-is-an\work\listik-x86-package\Hook.dll
+C:\Users\Alex\Documents\Codex\2026-08-16\referenced-chatgpt-conversation-this-is-an\work\listik-x86-package\Listik.exe
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\MainWindow.baml
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\MainWindow.g.cs
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\App.g.cs
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik_Content.g.cs
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik_MarkupCompile.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik.g.resources
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik.Properties.Resources.resources
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\Listik.exe
+C:\Users\Alex\source\repos\Listik\Listik\bin\x86\Release\Hook.dll
+C:\Users\Alex\source\repos\Listik\Listik\bin\x86\Release\Listik.exe
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\ActivationWindow.baml
+C:\Users\Alex\source\repos\Listik\Listik\obj\x86\Release\ActivationWindow.g.cs

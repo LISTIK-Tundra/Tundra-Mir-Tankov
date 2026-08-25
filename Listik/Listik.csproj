@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!-- ========================================================= -->
+  <!-- ОСНОВНЫЕ ПАРАМЕТРЫ ПРОЕКТА                               -->
+  <!-- ========================================================= -->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Listik</RootNamespace>
+    <AssemblyName>Listik</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <!-- Иконка программы -->
+    <ApplicationIcon>5_icon-icons.com_73812.ico</ApplicationIcon>
+    <!-- Отключаем ClickOnce -->
+    <GenerateManifests>false</GenerateManifests>
+    <!-- Не создавать Win32 manifest -->
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <!-- ========================================================= -->
+  <!-- DEBUG x86                                                 -->
+  <!-- ========================================================= -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <!-- Не создавать PDB -->
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <!-- Debug без оптимизации -->
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <!-- ========================================================= -->
+  <!-- DEBUG x64                                                 -->
+  <!-- ========================================================= -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <!-- Не создавать PDB -->
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <!-- Debug без оптимизации -->
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <!-- ========================================================= -->
+  <!-- RELEASE x86                                               -->
+  <!-- ========================================================= -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <!-- Не создавать PDB -->
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <!-- Оптимизация Release -->
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <!-- ========================================================= -->
+  <!-- RELEASE x64                                               -->
+  <!-- ========================================================= -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <!-- Не создавать PDB -->
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <!-- Оптимизация Release -->
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <!-- ========================================================= -->
+  <!-- СИСТЕМНЫЕ БИБЛИОТЕКИ                                     -->
+  <!-- ========================================================= -->
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <!-- ========================================================= -->
+  <!-- WPF                                                       -->
+  <!-- ========================================================= -->
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ActivationWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActivationWindow.xaml.cs">
+      <DependentUpon>ActivationWindow.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- ========================================================= -->
+  <!-- ИСХОДНЫЙ КОД                                              -->
+  <!-- ========================================================= -->
+  <ItemGroup>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="LicenseService.cs" />
+    <Compile Include="HotKeyManager.cs" />
+    <Compile Include="KeyHack.cs" />
+    <Compile Include="TundraManager.cs" />
+  </ItemGroup>
+  <!-- ========================================================= -->
+  <!-- PROPERTIES                                                -->
+  <!-- ========================================================= -->
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <!-- ========================================================= -->
+  <!-- HOOK.DLL: актуальная Release-сборка нужной архитектуры    -->
+  <!-- ========================================================= -->
+  <ItemGroup Condition="'$(Platform)' == 'x64'">
+    <Content Include="..\..\Dll_MirTankov\x64\Release\Hook.dll">
+      <Link>Hook.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Platform)' == 'x86'">
+    <Content Include="..\..\Dll_MirTankov\Release\Hook.dll">
+      <Link>Hook.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <!-- ========================================================= -->
+  <!-- РЕСУРСЫ                                                   -->
+  <!-- ========================================================= -->
+  <ItemGroup>
+    <Resource Include="5_icon-icons.com_73812.ico" />
+  </ItemGroup>
+  <!-- ========================================================= -->
+  <!-- MSBUILD                                                   -->
+  <!-- ========================================================= -->
+  <PropertyGroup>
+    <HookDllPlatform Condition="'$(Platform)' == 'x64'">x64</HookDllPlatform>
+    <HookDllPlatform Condition="'$(Platform)' == 'x86'">Win32</HookDllPlatform>
+    <HookDllOutputDir Condition="'$(Platform)' == 'x64'">$(MSBuildProjectDirectory)\..\..\Dll_MirTankov\x64\Release\</HookDllOutputDir>
+    <HookDllOutputDir Condition="'$(Platform)' == 'x86'">$(MSBuildProjectDirectory)\..\..\Dll_MirTankov\Release\</HookDllOutputDir>
+  </PropertyGroup>
+  <Target Name="BuildHookDll" BeforeTargets="PrepareForBuild" Condition="'$(HookDllPlatform)' != ''">
+    <MSBuild Projects="..\..\Dll_MirTankov\Dll_MirTankov.vcxproj" Targets="Build" Properties="Configuration=Release;Platform=$(HookDllPlatform);OutDir=$(HookDllOutputDir)" />
+  </Target>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alex\\source\\repos\\Listik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|c:\\users\\alex\\source\\repos\\listik\\listik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|C:\\Users\\Alex\\source\\repos\\Listik\\listik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|C:\\Users\\Alex\\source\\repos\\Listik\\listik\\tundramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\tundramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|C:\\Users\\Alex\\source\\repos\\Listik\\listik\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|C:\\Users\\Alex\\source\\repos\\Listik\\listik\\hotkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\hotkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotKeyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\HotKeyManager.cs",
+              "RelativeDocumentMoniker": "Listik\\HotKeyManager.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\HotKeyManager.cs",
+              "RelativeToolTip": "Listik\\HotKeyManager.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAqwI8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T17:50:19.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Listik\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\AppSettings.cs",
+              "RelativeToolTip": "Listik\\AppSettings.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T17:50:07.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Listik\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\MainWindow.xaml",
+              "RelativeToolTip": "Listik\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-16T15:29:57.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Listik\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Listik\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFsBAAAAAAAAAAAAAEcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T19:19:25.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TundraManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\TundraManager.cs",
+              "RelativeDocumentMoniker": "Listik\\TundraManager.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\TundraManager.cs",
+              "RelativeToolTip": "Listik\\TundraManager.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAADwv4wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T18:36:01.788Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

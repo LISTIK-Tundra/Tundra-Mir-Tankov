@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alex\\source\\repos\\Listik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|C:\\Users\\Alex\\source\\repos\\Listik\\listik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\obj\\Debug\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Listik\\obj\\Debug\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|c:\\users\\alex\\source\\repos\\listik\\listik\\hotkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\hotkeymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|c:\\users\\alex\\source\\repos\\listik\\listik\\keyhack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D16BA37-855A-41A3-B2AC-46B4B2A62D5E}|Listik\\Listik.csproj|solutionrelative:listik\\keyhack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KeyHack.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\KeyHack.cs",
+              "RelativeDocumentMoniker": "Listik\\KeyHack.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\KeyHack.cs",
+              "RelativeToolTip": "Listik\\KeyHack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T18:10:51.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\obj\\Debug\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "Listik\\obj\\Debug\\MainWindow.g.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\obj\\Debug\\MainWindow.g.cs",
+              "RelativeToolTip": "Listik\\obj\\Debug\\MainWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T18:10:48.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotKeyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\HotKeyManager.cs",
+              "RelativeDocumentMoniker": "Listik\\HotKeyManager.cs",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\HotKeyManager.cs",
+              "RelativeToolTip": "Listik\\HotKeyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T18:10:37.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Listik\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Alex\\source\\repos\\Listik\\Listik\\MainWindow.xaml",
+              "RelativeToolTip": "Listik\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-02T07:51:27.965Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

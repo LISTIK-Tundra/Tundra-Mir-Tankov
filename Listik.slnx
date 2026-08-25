@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Listik/Listik.csproj" Id="8d16ba37-855a-41a3-b2ac-46b4b2a62d5e">
+    <Platform Solution="*|x86" Project="x86" />
+    <Platform Solution="Debug|x64" Project="x64" />
+    <Build Solution="Debug|Any CPU" Project="false" />
+  </Project>
+</Solution>
